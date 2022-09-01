@@ -1,0 +1,662 @@
+/*
+Imported Fonts
+font-family: 'Jost', sans-serif; (Light 300, Medium 500)
+font-family: 'Titillium Web', sans-serif;
+ */
+
+/* Top navigation bar */
+
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+.topbar {
+  	background-color: #FFF;
+	overflow: hidden;
+	height: auto;
+	padding: 20px 20px;
+}
+
+.topbar a {
+	float: left;
+	color: #000;
+	text-align: center;
+	font-size: 13px;
+	text-decoration: none;
+	font-family: 'Titillium Web', sans-serif;
+	width: 20%;
+}	
+
+.topbar a:hover {
+	color: #959595;
+}
+
+.topbar a:active {
+	color: #959595;
+}
+
+/*Counseeling Banner*/
+
+@keyframes counselling{
+	from {color: rgba(255, 255, 255, 0);}
+	to{color: rgba(255, 255, 255, 1);}
+}
+
+.counselling-banner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	height: 40em;
+    background-image: url(images/counsel2.jpg);
+    background-size: cover;
+    background-position: 45% 50%;
+    background-attachment: fixed;
+}
+
+.counselling-banner h1 {
+	position: absolute;
+	top: 35%;
+	color: #fff;
+	text-align: center;
+	font-family: 'Jost', sans-serif;
+	font-weight: 450;
+	font-size: 70px;
+	line-height: 70px;
+	animation-name: counselling;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+}
+
+.counselling-banner button {
+	position: absolute;
+	top: 60%;
+	width: auto;
+	height: auto;
+	border: 3px solid white;
+	background-color: transparent;
+	font-family: 'Jost', sans-serif;
+	font-weight: 450;
+	font-size:15px;
+	color: #fff;
+	padding: 5px;
+}
+
+.counselling-banner button:hover {
+	color: #000;
+	background-color: #FFFCEA;
+	border: 3px solid white;
+}
+
+/* bar1 */
+.bar1 {
+	height: 5em;
+	background-color: #000;
+}
+
+
+
+/* What? */
+.counselling-what {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	height: 110em;
+	background-image: url(images/Cback1.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+}
+
+
+.title1{
+	position: absolute;
+	font-family: 'Jost', sans-serif;
+	font-weight: 500;
+	font-size: 70px;
+	top: 12%;
+}
+
+.pt1 {
+	width: 480px;
+	height: 200px;
+	position: absolute;
+	top: 22%;
+}
+
+.pt1 p{
+	font-family: 'Jost', sans-serif;
+	font-weight: 500;
+	font-size: 30px;
+	position: absolute;
+	top: 0%;
+	left: 17%;
+}
+
+.p1 {
+	font-family: 'Titillium Web', sans-serif;
+	position: absolute;
+	font-size: 20px;
+	left: 17%;
+	top: 25%;
+}
+
+#png1 {
+	position: absolute;
+	left: 5%;
+	width: 40px;
+	height: 40px;
+}
+
+.pt2 {
+	width: 480px;
+	height: 200px;
+	position: absolute;
+	top: 36%;
+}
+
+.pt2 p{
+	font-family: 'Jost', sans-serif;
+	font-weight: 500;
+	font-size: 30px;
+	position: absolute;
+	top: 0%;
+	left: 17%;
+}
+
+.p2 {
+	font-family: 'Titillium Web', sans-serif;
+	position: absolute;
+	font-size: 20px;
+	left: 17%;
+	top: 25%;
+}
+
+#png2 {
+	position: absolute;
+	left: 5%;
+	width: 40px;
+	height: 40px;
+}
+
+
+.pt3{
+	width: 480px;
+	height: 200px;
+	position: absolute;
+	top: 49%;
+}
+
+.pt3 p{
+	font-family: 'Jost', sans-serif;
+	font-weight: 500;
+	font-size: 30px;
+	position: absolute;
+	top: 0%;
+	left: 17%;
+}
+
+.p3 {
+	font-family: 'Titillium Web', sans-serif;
+	position: absolute;
+	font-size: 20px;
+	left: 17%;
+	top: 25%;
+}
+
+#png3 {
+	position: absolute;
+	left: 5%;
+	width: 40px;
+	height: 40px;
+}
+
+
+.pt4 {
+	width: 480px;
+	height: 200px;
+	position: absolute;
+	top: 65%;
+}
+
+.pt4 p{
+	font-family: 'Jost', sans-serif;
+	font-weight: 500;
+	font-size: 30px;
+	position: absolute;
+	top: 0%;
+	left: 17%;
+}
+
+.p4 {
+	font-family: 'Titillium Web', sans-serif;
+	position: absolute;
+	font-size: 20px;
+	left: 17%;
+	top: 25%;
+}
+
+#png4 {
+	position: absolute;
+	left: 5%;
+	width: 40px;
+	height: 40px;
+}
+
+.pt5 {
+	width: 480px;
+	height: 200px;
+	position: absolute;
+	top: 78%;
+}
+
+.pt5 p{
+	font-family: 'Jost', sans-serif;
+	font-weight: 500;
+	font-size: 30px;
+	position: absolute;
+	top: 0%;
+	left: 17%;
+}
+
+.p5 {
+	font-family: 'Titillium Web', sans-serif;
+	position: absolute;
+	font-size: 20px;
+	left: 17%;
+	top: 25%;
+}
+
+#png5 {
+	position: absolute;
+	left: 5%;
+	width: 40px;
+	height: 40px;
+}
+
+/* How */
+.counselling-how {
+	background-color: #8F9EA6;
+	height: 110em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.title2 {
+	position: absolute;
+	font-family: 'Jost', sans-serif;
+	font-weight: 500;
+	font-size: 70px;
+	color: #fff;
+	top: 10%;
+}
+
+.step1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 480px;
+	height: 300px;
+	background-color: rgba(0, 0, 0, 0.0);
+	position: absolute;
+	top: 21%;
+}
+
+#png6 {
+	position: absolute;
+	top: 0%;
+	width: 80px;
+	height: 80px;
+}
+
+.step1 p{
+	font-family: 'Jost', sans-serif;
+	font-weight: 500;
+	font-size: 30px;
+	position: absolute;
+	top: ;
+	color: #FFF38A;
+}
+
+.s1 {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 500;
+	color: #fff;
+	position: absolute;
+	font-size: 23px;
+	top: 65%;
+	text-align: center;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.step2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 480px;
+	height: 300px;
+	background-color: rgba(0, 0, 0, 0.0);
+	position: absolute;
+	top: 41%;
+}
+
+#png7 {
+	position: absolute;
+	top: 0%;
+	width: 80px;
+	height: 80px;
+}
+
+.step2 p{
+	font-family: 'Jost', sans-serif;
+	font-weight: 500;
+	font-size: 30px;
+	position: absolute;
+	top: ;
+	color: #FFF38A;
+}
+
+.s2 {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 500;
+	color: #fff;
+	position: absolute;
+	font-size: 23px;
+	top: 65%;
+	text-align: center;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.step3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 480px;
+	height: 300px;
+	background-color: rgba(0, 0, 0, 0.0);
+	position: absolute;
+	top: 63%;
+}
+
+#png8 {
+	position: absolute;
+	top: 0%;
+	width: 90px;
+	height: 90px;
+}
+
+.step3 p{
+	font-family: 'Jost', sans-serif;
+	font-weight: 500;
+	font-size: 30px;
+	position: absolute;
+	top: ;
+	color: #FFF38A;
+}
+
+.s3 {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 500;
+	color: #fff;
+	position: absolute;
+	font-size: 23px;
+	top: 65%;
+	text-align: center;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+/* Start */
+.Start {
+	height: 30em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	background-color: #D0C9C0;
+}
+
+.Start h1{
+	position: absolute;
+	font-family: 'Jost', sans-serif;
+	font-weight: 500;
+	top: 25%;
+	color: #fff;
+	font-size: 60px;
+
+}
+
+.Start p{
+	font-family: 'Titillium Web', sans-serif;
+	position: absolute;
+	text-align: center;
+	top: 46%;
+	font-size: 25px;
+	color: #fff;
+}
+
+.Start button {
+	position: absolute;
+	width: auto;
+	height: auto;
+	border: 3px solid white;
+	background-color: transparent;
+	font-family: 'Jost', sans-serif;
+	font-weight: 450;
+	font-size:20px;
+	color: #fff;
+	padding: 5px;
+	position: absolute;
+	top:70%;
+}
+
+.Start button:hover {
+	color: #000;
+	background-color: #FFF;
+	border: 3px solid white;
+}
+
+/* Testimonies */
+.reviews {
+	height: 50em;
+	background-image: url(images/Cback2.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.title3 {
+	font-family: 'Jost', sans-serif;
+	font-weight: 500;
+	font-size: 40px;
+	color: #fff;
+	position: absolute;
+	top: 60px;
+}
+
+@keyframes gotoright{
+	0% {right:10%;}
+	50% {right:9.5%;}
+	100% {right:10%;}
+}
+
+@keyframes gotoleft{
+	0% {left:10%;}
+	50% {left:9.5%;}
+	100% {left:10%;}
+}
+
+.nextcontain {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	right: 10%;
+	top: 47.5%;
+	cursor: pointer;
+}
+
+.prevcontain {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	left:10%;
+	top: 47.5%;
+	cursor: pointer;
+}
+
+#prev {
+	text-decoration: none;
+	font-size: 25px;
+	color: #fff;
+	cursor: pointer;
+}
+
+#next {
+	text-decoration: none;  
+	font-size: 25px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.prevcontain:hover {
+	animation-name: gotoleft;
+	animation-duration: 0.5s;
+	animation-iteration-count: 2;
+}
+
+.nextcontain:hover {
+	animation-name: gotoright;
+	animation-duration: 0.5s;
+	animation-iteration-count: 2;
+}
+
+.slideshow {
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.20);
+}
+
+.slides {
+	display: none;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.slides img{
+	border-radius: 50%;
+	position: absolute;
+	top: 150px;
+}
+
+.name {
+	font-family: 'Jost', sans-serif;
+	font-weight: 500;
+	text-align: center;
+	color: #FFF;
+	font-size: 30px;
+	position: absolute;
+	top: 400px;
+}
+
+.text{
+	font-family: 'Jost', sans-serif;
+	font-weight: 400;
+	text-align: center;
+	color: #fff;
+	position: absolute;
+	top: 470px;
+	margin-left: 25%;
+	margin-right: 25%;
+	font-size: 18px;
+}
+
+.quotation {
+	text-align: center;
+	color: #FFF;
+	font-size: 150px;
+	position: absolute;
+	top: 630px;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+/* Footer */
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	height: 15em;
+	background-color:#11201e;
+}
+
+.footer a{
+	position: absolute;
+	top: 15%;
+}
+
+@keyframes backtotop{
+	0% {top:15%;}
+	50% {top:13%;}
+	100% {top:15%;}
+}
+
+.footer a:hover{
+	animation-name: backtotop;
+	animation-duration: 0.5s;
+	animation-iteration-count: 2;
+}
+
+.footer h1{
+	position: absolute;
+	top: 30%;
+	text-align: center;
+	font-family: 'Jost', sans-serif;
+	font-weight: 450;
+	font-size: 20px;
+	color:#fff;
+}
+
+.footer p{
+	position: absolute;
+	top: 70%;
+	text-align: center;
+	color: #fff;
+	text-align: center;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 10px;
+}

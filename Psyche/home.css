@@ -1,0 +1,406 @@
+/*
+Imported Fonts
+font-family: 'Jost', sans-serif; (Light 300, Medium 500)
+font-family: 'Titillium Web', sans-serif;
+ */
+
+/* Top navigation bar */
+
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+.topbar {
+  	background-color: #FFF;
+	overflow: hidden;
+	height: auto;
+	padding: 20px 20px;
+}
+
+.topbar a {
+	float: left;
+	color: #000;
+	text-align: center;
+	font-size: 13px;
+	text-decoration: none;
+	font-family: 'Titillium Web', sans-serif;
+	width: 20%;
+}	
+
+.topbar a:hover {
+	color: #959595;
+}
+
+.topbar a:active {
+	color: #959595;
+}
+
+/* Home page Psyche logo */
+
+@keyframes logo{
+	from {color: rgba(0, 0, 0, 0);}
+	to{color: rgba(0, 0, 0, 1);}
+}
+
+.home-logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 50em;
+	position: relative;
+	background-image: url(images/logo3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.home-logo h1 {
+	position: absolute;
+	top:30%;
+	color: #000;
+	text-align: center;
+	font-family: 'Jost', sans-serif;
+	font-weight: 500;
+	font-size: 130px;
+	margin-bottom: 0px;
+	text-shadow: 30px 30px 15px #DCDCDC;
+}
+
+.home-logo p {
+	text-shadow: 20px 20px 15px #C0C0C0;
+	position: absolute;
+	top:60%;
+	color: #000;
+	text-align: center;
+	font-family: 'Jost', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	margin-top: 2px;
+	animation-name: logo;
+	animation-duration: 4s;
+	animation-iteration-count: 1;
+}
+
+
+/*home about section*/
+
+.home-about {
+	display: table;
+	width: 100%;
+	position: relative;
+	height: auto;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	background: #d4e8dc;
+}
+
+.home-about h1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 70px;
+	color: #000;
+	text-align: center;
+	font-family: 'Jost', sans-serif;
+	font-weight: 500;
+}
+
+.home-about p{
+	margin-top: 2%;
+	position: absolute;
+	top: 55%;
+	left: 0%;
+	color: #000;
+	text-align: center;
+	font-family: 'Titillium Web', sans-serif;
+	margin-top: 50px;
+	width: 100%;
+}
+
+.home-about a{
+	margin-top:2%;
+	position: absolute;
+	top: 60%;
+	left: 0%;
+	color: #4D4D4D;
+	font-family: 'Jost', sans-serif;
+	font-weight: 400;
+	text-decoration: underline;
+	text-align: center;
+	width: 100%;
+}
+
+.home-about a:hover{
+	color: #959595;	
+}
+
+/*homebackground 1*/
+
+.home-bckgrd1 {
+	position: relative;
+	height: 50em;
+    background-image: url(images/test.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+/* hometaketest*/
+
+.home-taketest {
+	position: absolute;
+	left: 10%;
+	top: 30%;
+	width: 80%;
+	height: auto;
+	background: rgba(226, 224, 213, 0.93);
+}
+
+.home-taketest h1{
+	margin-bottom:30px;
+	line-height: 80px;
+	margin-top: 1em;
+	font-size: 70px;
+	color: #000;
+	text-align: center;
+	font-family: 'Jost', sans-serif;
+	font-weight: 500;
+}
+
+.home-taketest p{
+	color: #000;
+	text-align: center;
+	font-family: 'Titillium Web', sans-serif;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.home-taketest a{
+	margin-top: 2em;
+	margin-bottom: 2em;
+	float: left;
+	text-align: center;
+	width: 100%;
+	font-family: 'Jost', sans-serif;
+	font-weight: 400;
+	color: #4D4D4D;
+	text-decoration: underline;
+}
+
+.home-taketest a:hover{
+	color: #959595;
+}
+
+/*home personality types*/
+
+.home-personality {
+	width: 100%;
+	height: 30em;
+	padding-bottom: 500px;
+}
+
+#personality-header{
+	margin-bottom:40px;
+	margin-top: 2em;
+	font-size: 70px;
+	line-height: 80px;
+	color: #000;
+	text-align: center;
+	font-family: 'Jost', sans-serif;
+	font-weight: 500;
+}
+
+.home-personality h1{
+	margin-top: 2em;
+	font-size: 70px;
+	color: #000;
+	text-align: center;
+	font-family: 'Jost', sans-serif;
+	font-weight: 500;
+}
+
+.home-personality p{
+	color: #000;
+	margin-top: 1em;
+	margin-bottom: 2em;
+	text-align: center;
+	font-family: 'Titillium Web', sans-serif;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.types {
+	display: table;
+	width: 100%;
+	position: relative;
+	height: auto;
+	padding: 20px 20px;
+}
+
+.types h1{
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 15px;
+	color: #000;
+	text-align: center;
+	font-family: 'Jost', sans-serif;
+	font-weight: 500;
+	background-color: #E1CFC9;
+}
+
+.types h2{
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 15px;
+	color: #000;
+	text-align: center;
+	font-family: 'Jost', sans-serif;
+	font-weight: 500;
+	background-color: #d4e8dc;	
+}
+
+.types h3{
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 15px;
+	color: #000;
+	text-align: center;
+	font-family: 'Jost', sans-serif;
+	font-weight: 500;
+	background-color: #C6E1F0;
+}
+
+.types h4{
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 15px;
+	color: #000;
+	text-align: center;
+	font-family: 'Jost', sans-serif;
+	font-weight: 500;
+	background-color: #EEE8C0;
+}
+
+.home-personality a{
+	margin-top: 2em;
+	float: left;
+	text-align: center;
+	width: 100%;
+	font-family: 'Jost', sans-serif;
+	font-weight: 400;
+	color: #4D4D4D;
+	text-decoration: underline;
+}
+
+.home-personality a:hover{
+	color: #959595;
+}
+
+
+/*home counsseling services section*/
+
+.home-bckgrd2 {
+	position: relative;
+	height: 50em;
+    background-image: url(images/counsel.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 20% 50%;
+}
+
+.home-counsel {
+	position: absolute;
+	left: 10%;
+	top: 30%;
+	width: 80%;
+	height: auto;
+	background: rgba(231, 202, 194, 0.90);
+}
+
+.home-counsel h1{
+	line-height: 80px;
+	margin-top: 1em;
+	font-size: 70px;
+	color: #000;
+	text-align: center;
+	font-family: 'Jost', sans-serif;
+	font-weight: 500;
+	margin-bottom:20px;
+}
+
+.home-counsel p{
+	color: #000;
+	text-align: center;
+	font-family: 'Titillium Web', sans-serif;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.home-counsel a{
+	margin-top: 2em;
+	margin-bottom: 2em;
+	float: left;
+	text-align: center;
+	width: 100%;
+	font-family: 'Jost', sans-serif;
+	font-weight: 400;
+	color: #4D4D4D;
+	text-decoration: underline;
+}
+
+.home-counsel a:hover{
+	color: #959595;
+}
+
+
+
+/* Footer */
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	height: 15em;
+	background-color:#11201e;
+}
+
+.footer a{
+	position: absolute;
+	top: 15%;
+}
+
+@keyframes backtotop{
+	0% {top:15%;}
+	50% {top:13%;}
+	100% {top:15%;}
+}
+
+.footer a:hover{
+	animation-name: backtotop;
+	animation-duration: 0.5s;
+	animation-iteration-count: 2;
+}
+
+.footer h1{
+	position: absolute;
+	top: 30%;
+	text-align: center;
+	font-family: 'Jost', sans-serif;
+	font-weight: 450;
+	font-size: 20px;
+	color:#fff;
+}
+
+.footer p{
+	position: absolute;
+	top: 70%;
+	text-align: center;
+	color: #fff;
+	text-align: center;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 10px;
+}

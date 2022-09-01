@@ -1,0 +1,390 @@
+/*
+Imported Fonts
+font-family: 'Jost', sans-serif; (Light 300, Medium 500)
+font-family: 'Titillium Web', sans-serif;
+ */
+
+/* Top navigation bar */
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+.topbar {
+  	background-color: #FFF;
+	overflow: hidden;
+	height: auto;
+	padding: 20px 20px;
+}
+
+.topbar a {
+	font-family: 'Titillium Web', sans-serif;
+	float: left;
+	color: #000;
+	text-align: center;
+	font-size: 13px;
+	text-decoration: none;
+	
+	width: 20%;
+}	
+
+.topbar a:hover {
+	color: #959595;
+}
+
+.topbar a:active {
+	color: #959595;
+}
+
+/* Banner */
+.banner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	height: 40em;
+    background-color: #EFE394;
+}
+
+.banner img{
+	position: absolute;
+	top: 50%;
+	height: 30px;
+	width: 200px;
+}
+
+.banner h1{
+	font-family: 'Jost', sans-serif;
+	font-weight: 500;
+	position: absolute;
+	top: 30%;
+	font-size: 100px;
+	color: #fff;
+}
+
+@media (max-width: 700px) {
+	.banner h1{
+		font-size: 80px;
+	}
+}
+
+.banner p{
+	font-family: 'Jost', sans-serif;
+	font-weight: 500;
+	position: absolute;
+	color: #fff;
+	font-size: 35px;
+	top: 57%;
+}
+
+/* Traits */
+.traits {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	height: 40em;
+    background-image: url(../images/Adve1.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+}
+
+@media (max-width: 1600px) {
+	.traits{
+		background-position: 70% 50%;
+	}
+}
+
+@media (max-width: 1400px) {
+	.traits{
+		background-position: 80% 50%;
+	}
+}
+
+
+@media (max-width: 1000px) {
+	.traits{
+		background-position: 85% 50%;
+	}
+}
+
+@media (max-width: 700px) {
+	.traits{
+		background-position: 90% 50%;
+	}
+}
+
+.colourbuffer1 {
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(to left, rgba(255,255,255,0), rgba(255,255,255,1));
+}
+
+.traits-container {
+	left: 15%;
+	position: absolute;
+}
+
+.traits-container h1{
+	font-family: 'Jost', sans-serif;
+	font-weight: 500;
+	font-size: 60px;
+	color: #000;
+}
+
+.traits-container p{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 25px;
+	font-weight: 500;
+	color: #000;
+}
+
+@media (max-width: 1500px) {
+	.traits-container{
+		right: 10%;
+	}
+}
+
+@media (max-width: 1000px) {
+	.traits-container{
+		right: 5%;
+	}
+}
+
+/* description */
+.description {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	height: 40em;
+    background-color: #F9F6E7;
+}
+
+.description h1{
+	font-family: 'Jost', sans-serif;
+	font-weight: 500;
+	position: absolute;
+	font-size: 60px;
+	top: 30%;
+}
+
+.description p{
+	font-family: 'Titillium Web', sans-serif;
+	position: absolute;
+	font-size: 25px;
+	text-align: center;
+	width: 450px;
+	top: 45%;
+}
+
+/* Banner2 */
+.banner2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	height: 40em;
+    background-image: url(../images/Adve2.jpg);
+    background-size: cover;
+    background-position: 57% 50%;
+    background-attachment: fixed;
+} 
+
+/* procons */
+.procons {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	height: 35em;
+	background-color: #C0EEE8;
+}
+
+.advantages {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0);
+	width: 50%;
+	height: 25em;
+	left: 0%;
+	top: 20%;
+}
+
+.disadvantages {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0);
+	width: 50%;
+	height: 25em;
+	right: 0%;
+	top: 20%;
+}
+
+.textbox1 h1{
+	font-family: 'Jost', sans-serif;
+	font-weight: 500;
+	font-size: 50px;
+}
+
+.textbox2 h1{
+	font-family: 'Jost', sans-serif;
+	font-weight: 500;
+	font-size: 50px;
+}
+
+.textbox1 ul{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 25px;
+	list-style-type: square;
+}
+
+.textbox2 ul{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 25px;
+	list-style-type: square;
+}
+
+
+@media (max-width: 1000px) {
+	.procons {
+		height: 60em;
+	}
+	.advantages {
+		top: 15%;
+		left: 22%;
+	}
+	.disadvantages{
+		top: 50%;
+		left: 25%;
+	}
+}
+
+/* Banner2 */
+.banner3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 35em;
+	background-color: #fff;
+} 
+
+.banner3 img {
+	width: 750px;
+	height: 750px;
+}
+
+@media (max-width: 1000px) {
+	.banner3 img{
+		width: 600px;
+		height: 600px;
+	}
+}
+
+@media (max-width: 700px) {
+	.banner3 img{
+		width: 420px;
+		height: 420px;
+	}
+}
+
+/* study */
+.study {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50em;
+	position: relative;
+	background-color: #959178;
+}
+
+.textbox3 {
+	color: #fff;
+	width: 650px;
+}
+
+.textbox3 h1{
+	font-family: 'Jost', sans-serif;
+	font-weight: 500;
+	font-size: 60px;
+}
+
+.textbox3 ul{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 25px;
+}
+
+@media (max-width: 1000px) {
+	.textbox3 {
+		width: 600px;
+	}
+}
+
+@media (max-width: 700px) {
+	.strat {
+		height: 55em;
+	}
+	.textbox3 {
+		width: 450px;
+	}
+	.textbox3 ul{
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 600px) {
+	.textbox3 {
+		width: 400px;
+	}
+}
+
+
+/* Footer */
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	height: 15em;
+	background-color:#11201e;
+}
+
+.footer a{
+	position: absolute;
+	top: 15%;
+}
+
+@keyframes backtotop{
+	0% {top:15%;}
+	50% {top:13%;}
+	100% {top:15%;}
+}
+
+.footer a:hover{
+	animation-name: backtotop;
+	animation-duration: 0.5s;
+	animation-iteration-count: 2;
+}
+
+.footer h1{
+	position: absolute;
+	top: 30%;
+	text-align: center;
+	font-family: 'Jost', sans-serif;
+	font-weight: 450;
+	font-size: 20px;
+	color:#fff;
+}
+
+.footer p{
+	position: absolute;
+	top: 70%;
+	text-align: center;
+	color: #fff;
+	text-align: center;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 10px;
+}

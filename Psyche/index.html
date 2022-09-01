@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+ 	<link rel="stylesheet" type="text/css" href="home.css">
+ 	<link rel="stylesheet" href="aos-master/dist/aos.css" />
+	
+	<title>PSYCHE | Home</title>
+
+</head>
+	
+<body>
+
+<!-- Top Bar -->	
+	<div class="topbar">
+		<a href="index.html">Home</a>
+		<a href="test.php">Do The Test</a>
+		<a href="type.html">Personality Types</a>		
+		<a href="counselling.html">Counselling Services</a>
+		<a href="about.html">About</a>
+	
+	</div>
+
+<!-- Home Logo -->
+	<div class="home-logo">
+		<h1>Psyche.</h1>
+		<p>a personality assessment test made for students</p>
+	</div>
+
+<!-- About -->
+	<div class="home-about">
+		<h1 data-aos="fade-up">About Psyche.</h1>
+		<a href="about.html" data-aos="fade-up">Learn more</a>
+	</div>
+
+<!-- Take Test -->
+	<div class=home-bckgrd1>
+		<div class="home-taketest" data-aos="fade-up">
+			<div data-aos="fade-up"> 
+				<h1> Complete the Test. </h1>
+				<p> Be yourself and answer honestly to find out your personality type</p>
+				<a href="#">Get started</a>
+			</div> 
+		</div>
+	</div>
+
+<!-- Personality Types -->
+	<div class="home-personality" data-aos="fade-up">
+		<h1 id="personality-header" data-aos="fade-up">Personality Types.</h1>
+		<p data-aos="fade-up">Humans are complex beings. We all walk, talk, and act differently. Personality is a big factor that contributes to this and in this section, we shall explore the 16 diverse personalities that make up our human population.
+		</p>
+
+		<div class="types">
+			<h1 data-aos="fade-left" data-aos-delay="100">Analysts</h1>
+			<h2 data-aos="fade-left">Diplomats</h2>
+			<h3 data-aos="fade-right">Sentinels</h3>
+			<h4 data-aos="fade-right" data-aos-delay="100">Explorers</h4>
+		</div>	
+
+		<a href="type.html" data-aos="zoom-in">More resources</a>
+
+	</div>
+
+<!-- Counselling -->
+	<div class="home-bckgrd2">
+		
+		<div class="home-counsel" data-aos="fade-up">
+			<h1 data-aos="fade-up">Counselling Service.</h1>
+			<p data-aos="fade-up">We believe that mental health is extremely important and should be conveniently accessible to everyone. Psyche provides the option of linking you to a certified, professional counsellor, who will be able to give personalized guidance according to your test results.
+			</p>
+			<a href="counselling.html" data-aos="fade-up">Check it out</a>
+		</div>
+
+	</div>
+
+<!-- Footer -->
+	<div class="footer">
+		
+
+		<a href="#" class="bck" data-aos="fade-up">	
+			<img src="images/arrow.png" alt="pointUp" >
+		</a>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"  
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="  
+    	crossorigin="anonymous"></script>
+		<script src="jquery.back-to-top.js"></script>
+
+		<script>
+
+			$(function(){
+
+			
+				$('.bck').backToTop();		
+
+			});
+	
+		</script>
+
+		
+		<h1 data-aos="fade-up"> Back to top </h1>
+		<p> © 2021 by Psyche. Proudly created by UNMC SEGP G11</p>
+
+
+	</div>
+
+<!-- animation plugin -->
+	<script src="aos-master/dist/aos.js"></script>
+    <script>
+      document.querySelector('html').classList.remove('no-js');
+      if (!window.Cypress) {
+        const scrollCounter = document.querySelector('.js-scroll-counter');
+
+        AOS.init({
+          mirror: true
+        });
+
+        document.addEventListener('aos:in', function(e) {
+          console.log('in!', e.detail);
+        });
+      }
+    </script>
+
+</body>
+
+</html>

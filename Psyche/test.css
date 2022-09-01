@@ -1,0 +1,216 @@
+/*
+Imported Fonts
+font-family: 'Jost', sans-serif; (Light 300, Medium 500)
+font-family: 'Titillium Web', sans-serif;
+ */
+
+/* Top navigation bar */
+
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+.topbar {
+  	background-color: #FFF;
+	overflow: hidden;
+	height: auto;
+	padding: 20px 20px;
+}
+
+.topbar a {
+	float: left;
+	color: #000;
+	text-align: center;
+	font-size: 13px;
+	text-decoration: none;
+	font-family: 'Titillium Web', sans-serif;
+	width: 20%;
+}	
+
+.topbar a:hover {
+	color: #959595;
+}
+
+.topbar a:active {
+	color: #959595;
+}
+
+/* Home page Psyche logo */
+
+@keyframes logo{
+	from {color: rgba(0, 0, 0, 0);}
+	to{color: rgba(0, 0, 0, 1);}
+}
+
+.home-logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 40em;
+	position: relative;
+	background-image: url(images/testbck4.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.home-logo h1 {
+	position: absolute;
+	color: #000;
+	text-align: center;
+	font-family: 'Jost', sans-serif;
+	font-weight: 500;
+	font-size: 75px;
+	margin-bottom: 0px;
+	animation-name: logo;
+	animation-duration: 4s;
+	animation-iteration-count: 1;
+}
+
+.buffer {
+	
+}
+/*homebackground 1*/
+
+.home-bckgrd1 {
+	position: relative;
+	top: 5em;
+	height: auto;
+    background-image: url(images/testbck3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*test*/
+
+.test {
+	padding-top:2em;
+	padding-bottom:2em;
+	position: relative;
+	left: 10%;
+	top: 10em;
+	width: 80%;
+	height: auto;
+	background: rgba(255, 255, 255, 0.9);
+	text-align: center;
+}
+
+.test h1{
+	text-align: center;
+	font-family: 'Jost', sans-serif;
+	font-weight: 500;
+	font-size: 75px;
+	margin-top: 100px;
+	margin-bottom: 130px;
+}
+
+.ask {
+	font-family: 'Jost', sans-serif;
+	font-weight: 500;
+	font-size: 27px;
+}
+
+.ans {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 22px;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	color: #000;
+	text-align: center;
+	width: 90%; 
+	line-height: 60px;
+}
+
+input[type=radio] {
+	cursor: pointer;
+	width:30px; 
+	height:30px;
+	margin:10px;
+}
+
+input[type='radio']:checked:after {
+    width:28px; 
+	height:28px;
+    border-radius: 20px;
+	top: -1px;
+    left: -1px;
+    position: relative;
+    background-color: #AEAEAE;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+    }
+
+input[type=submit] {
+	cursor: pointer;
+	width:180px; 
+	height:50px;
+	border-width: 3px;
+	border-color: rgba(255, 255, 255, 1);
+	background-color: rgba(0, 0, 0, 0.8);
+	font-family: 'Jost', sans-serif;
+	font-weight: 450;
+	font-size:20px;
+	color: #fff;
+	padding: 5px;
+	margin-top: 2em;
+}
+
+input[type=submit]:hover{
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Footer */
+.footer {
+	top: 15em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	height: 15em;
+	background-color:#11201e;
+}
+
+.footer a{
+	position: absolute;
+	top: 15%;
+}
+
+@keyframes backtotop{
+	0% {top:15%;}
+	50% {top:13%;}
+	100% {top:15%;}
+}
+
+.footer a:hover{
+	animation-name: backtotop;
+	animation-duration: 0.5s;
+	animation-iteration-count: 2;
+}
+
+.footer h1{
+	position: absolute;
+	top: 30%;
+	text-align: center;
+	font-family: 'Jost', sans-serif;
+	font-weight: 450;
+	font-size: 20px;
+	color:#fff;
+}
+
+.footer p{
+	position: absolute;
+	top: 70%;
+	text-align: center;
+	color: #fff;
+	text-align: center;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 10px;
+}
